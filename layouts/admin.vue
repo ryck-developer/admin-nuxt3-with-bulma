@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="aviso">O sorriso é a melhor roupa que você pode vestir.</div>
     <nav class="navbar">
       <div class="navbar-brand">
         <a href="http://bulma.io" class="navbar-item"
@@ -227,8 +228,17 @@
       </div>
     </nav>
 
-    <div>
+    <div class="container">
       <Nuxt />
     </div>
   </div>
 </template>
+
+<style>
+.aviso {
+  padding: 5px;
+  background: linear-gradient(to right, #46c498, #7be286);
+  text-align: center;
+  color: white;
+}
+</style>
