@@ -237,7 +237,7 @@
 <style>
 .aviso {
   padding: 5px;
-  background: linear-gradient(to right, #46c498, #7be286);
+  background: #f9a7b0;
   text-align: center;
   color: white;
 }

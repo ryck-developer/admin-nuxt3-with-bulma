@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="column">
+    <div class="column dashboard">
       <section class="hero is-info welcome is-small">
         <div class="hero-body">
           <div class="container">
@@ -204,9 +204,13 @@ export default {
 </script>
 
 <style>
-.hero.is-info {
+.dashboard {
   margin-top: 40px;
-  background: linear-gradient(to right, #46c498, #7be286);
+}
+
+.hero.is-info {
+  background: #f9a7b0;
+  /*background: linear-gradient(to right, #46c498, #7be286);*/
   color: #fff;
 }
 </style>
