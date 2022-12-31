@@ -29,9 +29,7 @@
                   <a class="navbar-item">
                     Em Alta <v-icon>mdi-fire-circle</v-icon>
                   </a>
-                  <button class="navbar-item" @click="showModal = true">
-                    Open Modal
-                  </button>
+                  <a class="navbar-link"> Modal </a>
                   <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link"> Soluções </a>
                     <div class="navbar-dropdown">
@@ -68,7 +66,6 @@
         </div>
       </div>
     </div>
-    <Modal v-if="showModal" @close="showModal = false"> kkkkkkkk</Modal>
     <Nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
@@ -83,17 +80,7 @@
 </template>
 
 <script>
-import Modal from '@/components/Modal.vue';
-export default {
-  components: {
-    Modal,
-  },
-  data() {
-    return {
-      showModal: false,
-    };
-  },
-};
+export default {};
 </script>
 
 <style>
