@@ -3,7 +3,9 @@
     <section class="section">
       <div class="container">
         <div class="columns is-desktop is-justify-content-center">
-          <div class="column is-4-desktop">Hey</div>
+          <div class="column is-4-desktop">
+            <img src="imagens/frase-do-dia.png" />
+          </div>
           <div class="column is-6-desktop">
             <div class="p-6 shadow rounded content">
               <h2 class="section-title">Seja bem-vindo de volta a bordo! ⚓</h2>

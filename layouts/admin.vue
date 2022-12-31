@@ -3,24 +3,18 @@
     <div class="aviso">O sorriso é a melhor roupa que você pode vestir.</div>
     <nav class="navbar">
       <div class="navbar-brand">
-        <a href="http://bulma.io" class="navbar-item"
+        <a href="/" class="navbar-item"
           ><img
             src="http://bulma.io/images/bulma-logo.png"
             alt="Bulma: a modern CSS framework based on Flexbox"
             width="112"
             height="28"
         /></a>
-        <a
-          href="https://github.com/jgthms/bulma"
-          target="_blank"
-          class="navbar-item is-hidden-desktop"
+        <a href="#" target="_blank" class="navbar-item is-hidden-desktop"
           ><span class="icon" style="color: #333"
             ><i class="fa fa-github"></i></span
         ></a>
-        <a
-          href="https://twitter.com/jgthms"
-          target="_blank"
-          class="navbar-item is-hidden-desktop"
+        <a href="#" target="_blank" class="navbar-item is-hidden-desktop"
           ><span class="icon" style="color: #55acee"
             ><i class="fa fa-twitter"></i></span
         ></a>
@@ -41,12 +35,7 @@
               <a href="/documentation/overview/start/" class="navbar-item">
                 Overview
               </a>
-              <a
-                href="http://bulma.io/documentation/modifiers/syntax/"
-                class="navbar-item"
-              >
-                Modifiers
-              </a>
+              <a href="/" class="navbar-item"> Modifiers </a>
               <a
                 href="http://bulma.io/documentation/columns/basics/"
                 class="navbar-item"
