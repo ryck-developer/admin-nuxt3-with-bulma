@@ -29,7 +29,9 @@
                   <a class="navbar-item">
                     Em Alta <v-icon>mdi-fire-circle</v-icon>
                   </a>
-                  <a class="navbar-item"> Cases de Sucesso </a>
+                  <a class="navbar-item" data-target="modal-js-example">
+                    Cases de Sucesso
+                  </a>
                   <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link"> Soluções </a>
                     <div class="navbar-dropdown">
@@ -49,10 +51,14 @@
                 <div class="navbar-end">
                   <div class="navbar-item">
                     <div class="buttons">
-                      <a class="btn btn-sm btn-outline-primary ml-4"
+                      <a
+                        class="btn btn-sm btn-outline-primary ml-4"
+                        href="/signup"
                         ><strong>Sign up</strong></a
                       >
-                      <a class="btn btn-sm btn-primary ml-4"> Log in </a>
+                      <a class="btn btn-sm btn-primary ml-4" href="/login">
+                        Log in
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -62,6 +68,7 @@
         </div>
       </div>
     </div>
+    <modal />
     <Nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
@@ -74,6 +81,11 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {};
+</script>
+
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
 body {
