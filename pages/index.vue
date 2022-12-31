@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="homepage">
     <!----><!---->
     <div>
       <div>
@@ -116,6 +116,16 @@
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Desenvolvido por<a href="https://www.instagram.com/luiz.henrique.dev/"
+            >Luiz Henrique Chaves</a
+          >.
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
