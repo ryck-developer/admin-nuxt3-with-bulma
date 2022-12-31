@@ -29,7 +29,7 @@
                   <a class="navbar-item">
                     Em Alta <v-icon>mdi-fire-circle</v-icon>
                   </a>
-                  <a class="navbar-link"> Modal </a>
+                  <a class="navbar-item"> Modal </a>
                   <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link"> Soluções </a>
                     <div class="navbar-dropdown">
