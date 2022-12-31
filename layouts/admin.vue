@@ -5,7 +5,7 @@
       <div class="navbar-brand">
         <a href="/" class="navbar-item"
           ><img
-            src="http://bulma.io/images/bulma-logo.png"
+            src="/images/logotipo.png"
             alt="Bulma: a modern CSS framework based on Flexbox"
             width="112"
             height="28"
