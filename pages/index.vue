@@ -1,7 +1,7 @@
 <template>
-  <div id="__nuxt">
+  <div>
     <!----><!---->
-    <div id="__layout">
+    <div>
       <div>
         <div>
           <nav role="navigation" aria-label="main navigation" class="navbar">
@@ -24,16 +24,21 @@
             </div>
             <div id="navbarBasicExample" class="navbar-menu">
               <div class="navbar-start">
-                <a class="navbar-item"> Home </a>
-                <a class="navbar-item"> Documentation </a>
+                <a class="navbar-item"> Em Alta 🔥</a>
+                <a class="navbar-item"> Cases de Sucesso </a>
                 <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link"> More </a>
+                  <a class="navbar-link"> Soluções </a>
                   <div class="navbar-dropdown">
-                    <a class="navbar-item"> About </a>
-                    <a class="navbar-item"> Jobs </a>
-                    <a class="navbar-item"> Contact </a>
+                    <a class="navbar-item"> Estratégias de Vendas </a>
+                    <a class="navbar-item"> Monetização de Conteúdo</a>
+                    <a class="navbar-item"> Plataforma de Pagamentos</a>
+                    <a class="navbar-item"> Otimização de Receitas</a>
+                    <a class="navbar-item"> Marketing Digital</a>
+                    <a class="navbar-item"> Gestão de Produtos Digitais</a>
+                    <a class="navbar-item"> Gestão de Conteúdo</a>
                     <hr class="navbar-divider" />
-                    <a class="navbar-item"> Report an issue </a>
+                    <a class="navbar-item"> Vender Produto Digital </a>
+                    <a class="navbar-item"> Produtor Digital </a>
                   </div>
                 </div>
               </div>
@@ -119,23 +124,6 @@ export default {};
 </script>
 
 <style>
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
-/*!------------------------------------------------------------------
-[MAIN STYLESHEET]
-
-PROJECT:	Project Name
-VERSION:	Versoin Number
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TABLE OF CONTENTS]
--------------------------------------------------------------------*/
-/*  typography */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
 body {
   font-family: 'Montserrat', sans-serif;
@@ -634,7 +622,6 @@ a:hover {
 }
 
 .navbar-item {
-  text-transform: capitalize;
   color: #222;
 }
 .navbar-item:focus,
@@ -1256,5 +1243,8 @@ pre .copy-to-clipboard {
 .no-pointer {
   pointer-events: none;
 }
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #fafafa;
+  height: 100% !important;
+}
 </style>
