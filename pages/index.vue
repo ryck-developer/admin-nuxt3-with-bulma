@@ -24,7 +24,9 @@
             </div>
             <div id="navbarBasicExample" class="navbar-menu">
               <div class="navbar-start">
-                <a class="navbar-item"> Em Alta 🔥</a>
+                <a class="navbar-item">
+                  Em Alta <v-icon>mdi-fire-circle</v-icon>
+                </a>
                 <a class="navbar-item"> Cases de Sucesso </a>
                 <div class="navbar-item has-dropdown is-hoverable">
                   <a class="navbar-link"> Soluções </a>
@@ -61,11 +63,14 @@
                 <div class="column is-3-widescreen is-4-desktop is-6-tablet">
                   <div class="card match-height" style="height: 290.188px">
                     <div class="card-body">
-                      <i class="card-icon ti-panel mb-5"></i>
-                      <h3 class="card-title h4">Basic Startup</h3>
+                      <div class="card-icon mb-5">
+                        <v-icon style="color: white"> mdi-chess-pawn</v-icon>
+                      </div>
+                      <h3 class="card-title h4">Estratégias de Vendas</h3>
                       <p class="card-text">
-                        Cras at dolor eget urna varius faucibus tempus in elit
-                        dolor sit amet.
+                        Aprenda as melhores táticas de vendas para aumentar suas
+                        conversões e maximizar seus lucros como afiliado. Clique
+                        aqui para mais informações.
                       </p>
                       <a href="list.html" class="stretched-link"></a>
                     </div>
@@ -74,11 +79,17 @@
                 <div class="column is-3-widescreen is-4-desktop is-6-tablet">
                   <div class="card match-height" style="height: 290.188px">
                     <div class="card-body">
-                      <i class="card-icon ti-credit-card mb-5"></i>
-                      <h3 class="card-title h4">Account Bill</h3>
+                      <div class="card-icon mb-5">
+                        <v-icon style="color: white"
+                          >mdi-credit-card-check-outline</v-icon
+                        >
+                      </div>
+                      <h3 class="card-title h4">Plataformas de Pagamento</h3>
                       <p class="card-text">
-                        Cras at dolor eget urna varius faucibus tempus in elit
-                        dolor sit amet.
+                        Não perca mais tempo com processamento de pagamentos
+                        complicado. Nossa plataforma de pagamentos simplificada
+                        ajuda você a receber suas comissões de afiliado com
+                        facilidade. Clique aqui para se cadastrar.
                       </p>
                       <a href="list.html" class="stretched-link"></a>
                     </div>
@@ -87,11 +98,16 @@
                 <div class="column is-3-widescreen is-4-desktop is-6-tablet">
                   <div class="card match-height" style="height: 290.188px">
                     <div class="card-body">
-                      <i class="card-icon ti-package mb-5"></i>
-                      <h3 class="card-title h4">Our Features</h3>
+                      <div class="card-icon mb-5">
+                        <v-icon style="color: white"
+                          >mdi-account-school-outline</v-icon
+                        >
+                      </div>
+                      <h3 class="card-title h4">Produtor Digital</h3>
                       <p class="card-text">
-                        Cras at dolor eget urna varius faucibus tempus in elit
-                        dolor sit amet.
+                        Descubra como se tornar um produtor digital de sucesso e
+                        criar produtos digitais de alto valor que vendem. Clique
+                        aqui para assinar nosso curso de produtor digital.
                       </p>
                       <a href="list.html" class="stretched-link"></a>
                     </div>
@@ -100,11 +116,14 @@
                 <div class="column is-3-widescreen is-4-desktop is-6-tablet">
                   <div class="card match-height">
                     <div class="card-body">
-                      <i class="card-icon ti-settings mb-5"></i>
-                      <h3 class="card-title h4">Theme Facility</h3>
+                      <div class="card-icon mb-5">
+                        <v-icon style="color: white"> mdi-fire</v-icon>
+                      </div>
+                      <h3 class="card-title h4">Vender na Internet</h3>
                       <p class="card-text">
-                        Cras at dolor eget urna varius faucibus tempus in elit
-                        dolor sit amet.
+                        Aprenda as melhores táticas para vender produtos
+                        digitais como afiliado e maximizar seus lucros. Clique
+                        aqui para mais informações.
                       </p>
                       <a href="list.html" class="stretched-link"></a>
                     </div>
@@ -1257,4 +1276,16 @@ body {
   background-color: #fafafa;
   height: 100% !important;
 }
+
+div[class='card match-height'] {
+  height: auto !important;
+}
+
+/*
+
+Icones: 
+        https://pictogrammers.github.io/@mdi/font/6.9.96/
+        https://materialdesignicons.com/
+
+*/
 </style>
