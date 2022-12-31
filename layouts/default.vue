@@ -7,11 +7,10 @@
           <div>
             <nav role="navigation" aria-label="main navigation" class="navbar">
               <div class="navbar-brand">
-                <a href="https://bulma.io" class="navbar-item"
+                <a href="/" class="navbar-item"
                   ><img
-                    src="https://bulma.io/images/bulma-logo.png"
+                    src="https://adminnuxt3withbulma-thuk--3000.local-corp.webcontainer.io/imagens/logotipo.png"
                     width="112"
-                    height="28"
                 /></a>
                 <a
                   role="button"
