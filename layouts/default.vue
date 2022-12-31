@@ -9,8 +9,9 @@
               <div class="navbar-brand">
                 <a href="/" class="navbar-item"
                   ><img
-                    src="https://adminnuxt3withbulma-thuk--3000.local-corp.webcontainer.io/imagens/logotipo.png"
+                    src="https://bulma.io/images/bulma-logo.png"
                     width="112"
+                    height="28"
                 /></a>
                 <a
                   role="button"
