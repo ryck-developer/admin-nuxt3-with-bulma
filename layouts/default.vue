@@ -66,7 +66,24 @@
         </div>
       </div>
     </div>
-    <Modal />
+
+    <div class="modal" :class="{ 'is-active': showModal }">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Modal title</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-success">Save changes</button>
+          <button class="button">Cancel</button>
+        </footer>
+      </div>
+    </div>
+
     <Nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
@@ -81,7 +98,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      showModal: true,
+    };
+  },
+};
 </script>
 
 <style>

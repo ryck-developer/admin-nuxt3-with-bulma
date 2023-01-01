@@ -169,7 +169,6 @@
               </div>
             </div>
           </div>
-          <teste />
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">User Search</p>
