@@ -66,7 +66,6 @@
         </div>
       </div>
     </div>
-    <Modal />
     <Nuxt />
     <footer class="footer">
       <div class="content has-text-centered">

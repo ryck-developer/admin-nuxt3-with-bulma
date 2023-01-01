@@ -11,6 +11,23 @@ export default {
     return (
       <div>
         <h3>Este é uma funcionalidade do NextJs e ReactJs</h3>
+
+        <div class="modal is-active">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Modal title</p>
+              <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+              <h1>kkkkkkkkkkk</h1>
+            </section>
+            <footer class="modal-card-foot">
+              <button class="button is-success">Save changes</button>
+              <button class="button">Cancel</button>
+            </footer>
+          </div>
+        </div>
       </div>
     );
   },
