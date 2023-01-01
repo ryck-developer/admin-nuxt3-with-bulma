@@ -226,8 +226,12 @@
 <style>
 .aviso {
   padding: 5px;
-  background: #f9a7b0;
+  background: linear-gradient(to right, #46c498, #7be286);
   text-align: center;
   color: white;
+}
+nav {
+  box-shadow: 0 0.5em 1em -0.99em rgba(10, 10, 10, 0.1),
+    0 0px 0 1px rgba(10, 10, 10, 0.02);
 }
 </style>

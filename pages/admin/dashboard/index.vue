@@ -209,8 +209,9 @@ export default {
 }
 
 .hero.is-info {
-  background: #f9a7b0;
+  background: linear-gradient(to right, #46c498, #7be286);
   /*background: linear-gradient(to right, #46c498, #7be286);*/
   color: #fff;
+  margin-bottom: 15px;
 }
 </style>

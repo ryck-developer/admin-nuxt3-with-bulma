@@ -66,6 +66,7 @@
         </div>
       </div>
     </div>
+    <Modal />
     <Nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
@@ -1213,9 +1214,10 @@ div[class='card match-height'] {
 }
 
 footer {
-  position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+  position: inherit;
 }
 
 /*
