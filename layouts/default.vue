@@ -1214,12 +1214,9 @@ div[class='card match-height'] {
 }
 
 footer {
+  position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
-}
-.modal {
-  display: block;
+  width: 100%;
 }
 
 /*

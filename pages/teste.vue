@@ -10,7 +10,7 @@ export default {
   render() {
     return (
       <div>
-        <h3>Este é uma funcionalidade do NextJs</h3>
+        <h3>Este é uma funcionalidade do NextJs e ReactJs</h3>
       </div>
     );
   },
