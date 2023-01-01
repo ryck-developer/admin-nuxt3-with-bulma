@@ -11,7 +11,7 @@
         ></button>
       </header>
       <section class="modal-card-body">
-        <slot></slot>
+        Testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
       </section>
       <footer class="modal-card-foot">
         <button class="button is-success">Save changes</button>

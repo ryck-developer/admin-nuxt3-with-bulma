@@ -66,6 +66,7 @@
         </div>
       </div>
     </div>
+    <Modal />
     <Nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
@@ -1216,6 +1217,9 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+}
+.modal {
+  display: block;
 }
 
 /*
