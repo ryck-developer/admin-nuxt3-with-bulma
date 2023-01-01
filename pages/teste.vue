@@ -1,5 +1,6 @@
 <script>
 export default {
+  name: 'teste',
   head() {
     return {
       title: 'Testando funcionalidades NextJs',
@@ -12,7 +13,7 @@ export default {
       <div>
         <h3>Este é uma funcionalidade do NextJs e ReactJs</h3>
 
-        <div class="modal is-active">
+        <div class="modal ">
           <div class="modal-background"></div>
           <div class="modal-card">
             <header class="modal-card-head">
@@ -20,7 +21,7 @@ export default {
               <button class="delete" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
-              <h1>kkkkkkkkkkk</h1>
+              <h1>teste modal</h1>
             </section>
             <footer class="modal-card-foot">
               <button class="button is-success">Save changes</button>

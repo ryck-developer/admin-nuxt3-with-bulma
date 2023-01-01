@@ -11,6 +11,7 @@
           </div>
         </div>
       </section>
+
       <section class="info-tiles">
         <div class="tile is-ancestor has-text-centered">
           <div class="tile is-parent">
@@ -168,6 +169,7 @@
               </div>
             </div>
           </div>
+          <teste />
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">User Search</p>
