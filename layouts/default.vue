@@ -27,7 +27,8 @@
               <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
                   <a class="navbar-item">
-                    Em Alta <v-icon>mdi-fire-circle</v-icon>
+                    Em Alta
+                    <v-icon style="color: orange">mdi-fire-circle</v-icon>
                   </a>
                   <NuxtLink to="/admin/dashboard/" class="navbar-item">
                     Painel Administrativo
