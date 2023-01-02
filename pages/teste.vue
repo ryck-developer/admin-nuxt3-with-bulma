@@ -1,4 +1,8 @@
 <script>
+setTimeout(function () {
+  console.log('5 minutos se passaram');
+}, 5 * 60000);
+
 export default {
   name: 'teste',
   head() {
@@ -13,20 +17,28 @@ export default {
       <div>
         <h3>Este é uma funcionalidade do NextJs e ReactJs</h3>
 
-        <div class="modal ">
+        <div class="is-active">
           <div class="modal-background"></div>
-          <div class="modal-card">
-            <header class="modal-card-head">
-              <p class="modal-card-title">Modal title</p>
-              <button class="delete" aria-label="close"></button>
-            </header>
-            <section class="modal-card-body">
-              <h1>teste modal</h1>
-            </section>
-            <footer class="modal-card-foot">
-              <button class="button is-success">Save changes</button>
-              <button class="button">Cancel</button>
-            </footer>
+          <div class="modal-card" style="width:400px;">
+            <div class="card">
+              <div class="card-content" style="background-color:white;">
+                <button class="delete" aria-label="close"></button>
+                <img
+                  class="img-modal"
+                  src="https://www.meioemensagem.com.br/wp-content/uploads/2021/07/Como-ganhar-dinheiro-com-marketing-de-afiliado.jpg"
+                />
+                <p class="subtitle-modal-form">
+                  Inscreva-se agora e comece a aproveitar todos os benefícios de
+                  ser um afiliado do AfilI-Pay!
+                </p>
+                <input
+                  class="input form-modal-input"
+                  type="text"
+                  placeholder="Coloque o Email que você mais usa"
+                />
+                <button class="button is-link is-light">QUERO DESCONTO</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -34,3 +46,22 @@ export default {
   },
 };
 </script>
+
+<style>
+.form-modal-input {
+  border: 0.5px solid silver;
+  margin-bottom: 10px;
+}
+.subtitle-modal-form {
+  color: black;
+  size: 16px !important;
+  margin-top: 20px;
+}
+button[class='button is-link is-light'] {
+  width: 100%;
+}
+
+.img-modal {
+  width: 100%;
+}
+</style>
