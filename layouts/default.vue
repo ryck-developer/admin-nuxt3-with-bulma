@@ -29,6 +29,9 @@
                   <a class="navbar-item">
                     Em Alta <v-icon>mdi-fire-circle</v-icon>
                   </a>
+                  <NuxtLink to="/admin/dashboard/" class="navbar-item">
+                    Painel Administrativo
+                  </NuxtLink>
                   <button class="navbar-item" @click="openModal">Modal</button>
                   <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link"> Soluções </a>
