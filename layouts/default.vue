@@ -1324,6 +1324,10 @@ footer {
   position: inherit;
 }
 
+.navbar-end {
+  margin-bottom: 5px;
+}
+
 /*
 
 Icones: 
