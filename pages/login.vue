@@ -4,7 +4,7 @@
       <div class="container">
         <div class="columns is-desktop is-justify-content-center">
           <div class="column is-4-desktop">
-            <img src="/imagens/frases-do-dia/post-dia-31-12-2022.png" alt="" />
+            <img src="/imagens/frases-do-dia/frase-do-dia.png" alt="" />
           </div>
           <div class="column is-6-desktop">
             <div class="p-6 shadow rounded content">
