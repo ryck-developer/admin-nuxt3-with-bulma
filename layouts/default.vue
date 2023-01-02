@@ -29,7 +29,7 @@
                   <a class="navbar-item">
                     Em Alta <v-icon>mdi-fire-circle</v-icon>
                   </a>
-                  <a class="navbar-item"> Modal </a>
+                  <button class="navbar-item" @click="openModal">Modal</button>
                   <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link"> Soluções </a>
                     <div class="navbar-dropdown">
@@ -72,14 +72,18 @@
       <div class="modal-card">
         <header class="modal-card-head">
           <p class="modal-card-title">Modal title</p>
-          <button class="delete" aria-label="close"></button>
+          <button
+            class="delete"
+            aria-label="close"
+            @click="closeModal"
+          ></button>
         </header>
         <section class="modal-card-body">
           OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         </section>
         <footer class="modal-card-foot">
           <button class="button is-success">Save changes</button>
-          <button class="button">Cancel</button>
+          <button class="button" @click="closeModal">Cancel</button>
         </footer>
       </div>
     </div>
@@ -101,8 +105,16 @@
 export default {
   data() {
     return {
-      showModal: true,
+      showModal: false,
     };
+  },
+  methods: {
+    closeModal() {
+      this.showModal = false;
+    },
+    openModal() {
+      this.showModal = true;
+    },
   },
 };
 </script>
